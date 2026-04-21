@@ -1,7 +1,7 @@
 <template>
   <section class="music" v-if="data">
     <audio controls>
-      <source :src="data.src" type="audio/mpeg">
+      <source :src="data?.src" type="audio/mpeg">
       Tu navegador no soporta audio
     </audio>
   </section>
