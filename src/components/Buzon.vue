@@ -2,24 +2,24 @@
   <section class="buzon" v-if="data">
 
     <!-- TÍTULO -->
-    <h2 class="titulo3">{{ data.titulo }}</h2>
+    <h2 class="titulo3">{{ data?.titulo }}</h2>
 
     <!-- DECORACIÓN -->
-    <img :src="data.decoracion" class="decoracion" style="filter: invert(1);">
+    <img :src="data?.decoracion" class="decoracion" style="filter: invert(1);">
 
     <!-- TEXTO -->
-    <p class="texto2" v-html="formatearTexto(data.texto)"></p>
+    <p class="texto2" v-html="formatearTexto(data?.texto)"></p>
 
     <!-- ICONO -->
-    <img v-if="data.icono" :src="data.icono" class="icono" style="filter: invert(0) brightness(2);">
+    <img v-if="data?.icono" :src="data?.icono" class="icono" style="filter: invert(0) brightness(2);">
 
     <!-- BOTÓN -->
     <a 
-      :href="data.link" 
+      :href="data?.link" 
       target="_blank" 
       class="btn2"
     > 
-      {{ data.botonTexto }}
+      {{ data?.botonTexto }}
     </a>
 
   </section>

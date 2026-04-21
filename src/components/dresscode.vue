@@ -22,7 +22,7 @@
             <h3>Ellos</h3>
             <p>
                 Traje<br>
-                {{ data.ellos }}
+                {{ data?.ellos }}
             </p>
             </div>
 
@@ -30,7 +30,7 @@
             <h3>Ellas</h3>
             <p>
                 Vestidos de noche<br>
-                {{ data.ellas }}
+                {{ data?.ellas }}
             </p>
             </div>
 

@@ -5,27 +5,27 @@
       APARTA <span class="titulo-span">esta</span> FECHA
     </h2>
 
-    <p class="tipo">— {{ data.fechaTexto }} —</p>
+    <p class="tipo">— {{ data?.fechaTexto }} —</p>
 
     <div class="countdown">
 
       <div class="box">
-        <span>{{ tiempo.dias }}</span>
+        <span>{{ tiempo?.dias }}</span>
         <p>DÍAS</p>
       </div>
 
       <div class="box">
-        <span>{{ tiempo.horas }}</span>
+        <span>{{ tiempo?.horas }}</span>
         <p>HORAS</p>
       </div>
 
       <div class="box">
-        <span>{{ tiempo.minutos }}</span>
+        <span>{{ tiempo?.minutos }}</span>
         <p>MINUTOS</p>
       </div>
 
       <div class="box">
-        <span>{{ tiempo.segundos }}</span>
+        <span>{{ tiempo?.segundos }}</span>
         <p>SEGUNDOS</p>
       </div>
 
@@ -34,7 +34,7 @@
   </section>
 
   <section class="reveal" v-if="data?.imagen">
-    <img :src="data.imagen" alt="imagen">
+    <img :src="data?.imagen" alt="imagen">
   </section>
 </template>
 

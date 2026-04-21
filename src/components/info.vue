@@ -3,7 +3,7 @@
 
     <!-- FRASE -->
     <p class="frase">
-      {{ data.frase }}
+      {{ data?.frase }}
     </p>
 
     <!-- DECORACIÓN -->
@@ -13,7 +13,7 @@
     <div class="familia" v-if="data?.familia">
 
   <div v-for="grupo in data.familia" :key="grupo.titulo" class="bloque">
-    <p class="padrinos">{{ grupo.titulo }}</p>
+    <p class="padrinos">{{ grupo?.titulo }}</p>
 
             <p class="nompadrinos">
 

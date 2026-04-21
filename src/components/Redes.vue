@@ -16,7 +16,7 @@
         </p>
 
         <!-- HASHTAG -->
-        <p class="tag">{{ data.hashtag }}</p>
+        <p class="tag">{{ data?.hashtag }}</p>
 
         <!-- REDES -->
         <div class="redes">

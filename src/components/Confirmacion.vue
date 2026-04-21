@@ -2,18 +2,18 @@
   <section class="confirmacion" v-if="data">
 
     <!-- TÍTULO -->
-    <h2 class="titulo">{{ data.titulo }}</h2>
+    <h2 class="titulo">{{ data?.titulo }}</h2>
 
     <!-- DECORACIÓN -->
-    <img :src="data.decoracion" class="decoracion">
+    <img :src="data?.decoracion" class="decoracion">
 
     <!-- TEXTO -->
-    <p class="texto" v-html="formatearTexto(data.texto)"></p>
+    <p class="texto" v-html="formatearTexto(data?.texto)"></p>
 
     <!-- AVISO -->
-    <p class="aviso" v-if="data.aviso">{{ data.aviso }}</p>
+    <p class="aviso" v-if="data?.aviso">{{ data?.aviso }}</p>
 
-    <p class="descripcion" v-html="formatearTexto(data.descripcion)"></p>
+    <p class="descripcion" v-html="formatearTexto(data?.descripcion)"></p>
 
     <!-- BOTÓN -->
     <a 

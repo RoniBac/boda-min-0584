@@ -28,7 +28,7 @@
         <!-- MESA DE REGALOS -->
         <p class="formal">— Mesa de Regalos —</p>
         
-        <p class="tipo">{{ data.mesa }}</p>
+        <p class="tipo">{{ data?.mesa }}</p>
         <img :src="data.tienda" class="logo">
         
         <br><br><a :href="data.link" target="_blank" class="btn3">Ver mesa</a>
