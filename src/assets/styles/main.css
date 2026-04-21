@@ -35,9 +35,7 @@
   object-fit: cover;
 }
 
-* {
-  outline: 1px solid red;
-}
+
 
 /* OVERLAY */
 .hero-overlay {
