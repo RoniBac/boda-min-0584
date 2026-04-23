@@ -152,7 +152,7 @@ export const invitacion = {
 
       descripcion: "Nos encantaría que esta celebración\ntambién la disfrutes tanto como nosotros,\npor eso hemos decidido que sea solo para adultos.",
 
-      whatsapp: "5214448360017",
+      whatsapp: "5218124077280",
       mensaje: "Hola, confirmo mi asistencia 🎉"
     },
 
