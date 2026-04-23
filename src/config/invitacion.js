@@ -43,8 +43,8 @@ export const invitacion = {
     imagen: hero,
     icono: icono,
     fecha: "24·06·26",
-    novio: "Ruben",
-    novia: "Maria"
+    novio: "Emanuel",
+    novia: "Fernanda"
   },
    music: {
     src: musica
