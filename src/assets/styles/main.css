@@ -346,6 +346,7 @@
   display: flex;
   justify-content: center;
   gap: 5px;
+  padding-bottom: 2rem;
 }
 
 /* COLUMNAS */
