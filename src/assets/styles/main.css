@@ -81,6 +81,9 @@
   font-style: italic;
   margin: 1.5rem;
   color: var(--color-terciario);
+    text-shadow: 
+    0 2px 5px rgba(0,0,0,0.7),
+    0 0 10px rgba(0,0,0,0.5);
 }
 
 .and {
