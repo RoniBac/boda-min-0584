@@ -50,7 +50,7 @@
   justify-content: center;
   align-items: center;
 
-  transform: translateY(30%); /* 🔥 lo baja un poco */
+  transform: translateY(20%); /* 🔥 lo baja un poco */
   
   text-align: center;
   color: var(--color-terciario);
@@ -267,9 +267,8 @@
 }
 
 .reveal img {
-  position: sticky;
   top: 0;
-
+  position: relative; /* 🔥 quitar sticky */
   width: 100%;
   height: 100vh;
   object-fit: cover;
