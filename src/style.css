@@ -5,7 +5,6 @@
 
   font: 18px/145% var(--sans);
   letter-spacing: 0.18px;
-  color-scheme: light dark;
   background: var(--bg);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -15,6 +14,50 @@
 
 }
 
+
+
+.shared-bg {
+  background-image: url('./assets/img/bg/bg1.png');
+
+  margin: -2rem 0 -2.2rem; /* Ajusta el margen para cubrir el espacio entre los componentes */
+  
+  min-height: 100vh;
+  width: 100%;
+
+  background-size: 90%;
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  background-position: center 30%;
+
+  justify-content: center; /* centra horizontal */
+}
+
+.content {
+  width: 100%;
+}
+
+.shared-bg2{
+  background-image: url('./assets/img/bg/bg2.png');
+  margin: -2rem 0 -2.2rem; /* Ajusta el margen para cubrir el espacio entre los componentes */
+  
+  min-height: 100vh;
+  width: 100%;
+
+  background-size: 90%;
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  background-position: center 30%;
+
+  justify-content: center; /* centra horizontal */
+}
+
+.music,
+.info,
+.countdown-section {
+  background: transparent; /* importante */
+}
 
 
 body {

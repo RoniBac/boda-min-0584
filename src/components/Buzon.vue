@@ -5,7 +5,7 @@
     <h2 class="titulo3">{{ data?.titulo }}</h2>
 
     <!-- DECORACIÓN -->
-    <img :src="data?.decoracion" class="decoracion" style="filter: invert(1);">
+    <img :src="data?.decoracion" class="decoracion" >
 
     <!-- TEXTO -->
     <p class="texto2" v-html="formatearTexto(data?.texto)"></p>

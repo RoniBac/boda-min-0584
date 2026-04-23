@@ -2,7 +2,7 @@ import hero from '../assets/img/principal/f1.jpeg'
 import hero2 from "../assets/img/principal/f2.jpeg"
 import hero3 from "../assets/img/principal/f3.jpeg"
 
-import ub1 from "../assets/img/ubi/ub1.JPG"
+import ub1 from "../assets/img/ubi/ub1.png"
 import ub2 from "../assets/img/ubi/ub2.png"
 
 import iconreg from "../assets/img/icons/iconreg.png"
@@ -152,7 +152,7 @@ export const invitacion = {
 
       descripcion: "Nos encantaría que esta celebración\ntambién la disfrutes tanto como nosotros,\npor eso hemos decidido que sea solo para adultos.",
 
-      whatsapp: "5214444328102",
+      whatsapp: "5214448360017",
       mensaje: "Hola, confirmo mi asistencia 🎉"
     },
 

@@ -2,8 +2,8 @@
   --color-bg: #ffffff;
   --color-sombra: rgba(0, 0, 0, 0.7);
 
-  --color-primario: #93a3bc;
-  --color-secundario: #f0d387;
+  --color-primario: #B0B3BB;
+  --color-secundario: #EED287;
   --color-terciario: #ffffff;
 
   --font-title: 'Beau Rivage', cursive;
@@ -91,6 +91,9 @@
   color: var(--color-terciario);
 }
 
+.music{
+  padding: 2rem;
+}
 
 /* ICONO */
 .icono {
@@ -141,9 +144,9 @@
 /* DECORACIÓN */
 .decoracion {
   align-self: center;
-  width: 3in;
-  margin: 20px auto;
-  margin: 2rem auto;    /* 🔥 lo centra */
+  width: 4in;
+  margin: -3rem;    /* 🔥 lo centra */
+  margin-left: -2rem;
 }
 
 /* TITULOS */
@@ -186,6 +189,7 @@
   justify-content: center;
   
   margin: 2rem;
+  padding-bottom: 2rem;
 }
 .countdown{
   display: flex;              /* 🔥 esto faltaba */
@@ -242,7 +246,7 @@
 .titulo3{
   font-family: var(--font-title);
   font-size: var(--fs-xxl);
-  color: var(--color-terciario);
+  color: var(--color-primario);
   letter-spacing: 0.2rem;
 
   width: fit-content;   /* 🔥 clave */
@@ -273,8 +277,6 @@
 .ubicacion {
     align-items: center;
     text-align: center;
-
-    background: var(--color-bg);
     padding: 100px 20px;
     position: relative;
 }
@@ -322,7 +324,6 @@
 
 
 .dresscode {
-  background: var(--color-bg);
   text-align: center;
   padding: 60px 20px;
   font-family: 'Georgia', serif;
@@ -373,16 +374,17 @@
 }
 
 .itinerario {
-  background: var(--color-secundario);
-  color: white;
+  color: var(--color-primario);
   text-align: center;
   padding: 80px 20px;
   font-family: var(--font-text);
+  font-weight: 700; /* normal bold */
 }
 
 
 /* LISTA */
 .lista {
+  margin: 2rem;
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -401,7 +403,6 @@
 }
 
 .regalos {
-  background: var(--color-terciario);
   text-align: center;
   align-items: center;
   padding: 60px;
@@ -472,8 +473,7 @@
 
 
 .hashtag {
-  background: #f0d387;
-  color: white;
+  color: var(--color-primario);
   text-align: center;
   padding: 80px 20px;
 }
@@ -486,7 +486,7 @@
 .texto2{
   font-size: var(--fs-md);
   font-family: var(--font-text);
-  color: var(--color-terciario);
+  color: var(--color-primario);
   margin: 1rem;
 }
 /* HASHTAG */
@@ -507,7 +507,6 @@
 
 
 .galeria {
-  background: var(--color-terciario);
   text-align: center;
   padding: 60px 20px;
 }
@@ -597,9 +596,8 @@
 }
 
 .confirmacion {
-  background: var(--color-terciario);
   text-align: center;
-  padding: 60px 20px;
+  padding-bottom: 7rem;
   font-family: 'Georgia', serif;
 }
 
@@ -611,20 +609,13 @@
   color: var(--color-primario);
 }
 
-.buzon {
-  background: #f0d387;
-  color: white;
-  text-align: center;
-  padding: 80px 20px 120px;
-  font-family: 'Georgia', serif;
-}
+
 
 .buzon {
-  background: #f0d387;
   color: white;
   text-align: center;
   padding: 80px 20px 120px;
-  font-family: 'Georgia', serif;
+  font-family: var(--font-text);
 }
 
 

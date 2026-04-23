@@ -5,7 +5,7 @@
         <h2 class="titulo3">Itinerario</h2>
 
         <!-- DECORACIÓN -->
-        <img :src="data.decoracion" class="decoracion" style="filter: invert(1);"> 
+        <img :src="data.decoracion" class="decoracion""> 
 
         <!-- LISTA -->
         <div class="lista">
@@ -23,11 +23,6 @@
             <div class="item">
             <img :src="data.icon3" style="filter: invert(1);">
             <p>Bienvenida Novios</p>
-            </div>
-
-            <div class="item">
-            <img :src="data.icon4" style="filter: invert(1);">
-            <p>Cerenomina Civil</p>
             </div>
 
             <div class="item">
