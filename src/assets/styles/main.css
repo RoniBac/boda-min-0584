@@ -623,3 +623,90 @@
 
 
 
+
+/* TEXTOS */
+.texto,
+.descripcion {
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.aviso {
+  font-size: 14px;
+  margin: 10px 0;
+  font-weight: 500;
+}
+
+/* CAJA RSVP */
+.rsvp-box {
+  padding: 80px;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  margin-top: 20px;
+  animation: fadeIn 0.4s ease;
+}
+
+/* INPUTS */
+.input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  font-size: 14px;
+  outline: none;
+  transition: 0.2s;
+}
+
+.input:focus {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 2px rgba(0,0,0,0.05);
+}
+
+
+/* TEXTO CONFIRMADO */
+.nombre-confirmado {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+/* MENSAJE FINAL */
+.mensaje-final {
+  font-size: var(--fs-md);
+  font-weight: 500;
+  color: var(--color-primario);
+}
+
+/* ANIMACION */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+.error-msg {
+  background: #ffe5e5;
+  color: #b00020;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.nombre-confirmado {
+  color: var(--color-primario);
+  font-size: var(--fs-lg);
+}
+
+.label-personas {
+  font-size: var(--fs-md);
+  color: var(--color-primario);
+  margin-bottom: 10px;
+}

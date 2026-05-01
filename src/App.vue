@@ -13,10 +13,17 @@ import Redes from './components/Redes.vue'
 import Galeria from './components/Galeria.vue'
 import Confirmacion from './components/Confirmacion.vue'
 import Buzon from './components/Buzon.vue'
+import Page from './components/page.vue'
 </script>
 
 <template>
-  
+  <!--
+   <Hero 
+    :imagen="data.hero.imagen"
+    :fecha="data.hero.fecha"
+    :novio="data.hero.novio"
+    :novia="data.hero.novia"
+    :icono="data.hero.icono"/>
   <Hero 
     :imagen="data.hero.imagen"
     :fecha="data.hero.fecha"
@@ -81,5 +88,8 @@ import Buzon from './components/Buzon.vue'
       <Buzon :data="data.buzon" :whatsapp="data.whatsapp" />
     </div>
   </div>
+
+  -->
+  <Page />
   
 </template>
