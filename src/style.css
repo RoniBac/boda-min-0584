@@ -296,5 +296,4 @@ code {
 html, body {
   margin: 0;
   padding: 0;
-  overflow-x: hidden; /* 🔥 esto elimina el espacio blanco */
 }
