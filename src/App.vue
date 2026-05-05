@@ -24,12 +24,7 @@ import Page from './components/page.vue'
     :novio="data.hero.novio"
     :novia="data.hero.novia"
     :icono="data.hero.icono"/>
-  <Hero 
-    :imagen="data.hero.imagen"
-    :fecha="data.hero.fecha"
-    :novio="data.hero.novio"
-    :novia="data.hero.novia"
-    :icono="data.hero.icono"/>
+
   <div class="content">
     <div class="shared-bg">
       <Music :data="data.music"/>
