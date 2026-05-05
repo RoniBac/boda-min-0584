@@ -128,7 +128,7 @@ export const invitacion = {
 
     redes:{
       decoracion:decoracion2,
-      hashtag:"#Maria&Ruben"
+      hashtag:"#Fernanda&Emmanuel"
     },
 
     galeria:{
