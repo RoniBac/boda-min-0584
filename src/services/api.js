@@ -1,4 +1,6 @@
-const API_URL = "/api"
+const API_URL = import.meta.env.DEV
+  ? "/api"
+  : "https://script.google.com/macros/s/AKfycbz-iiHNrt7RlrVQLO-Ip6nR9PT--R25KYy7CBgi4wN2YIpifltYZmbugNATBLX4OQeNjw/exec"
 
 // 🔍 Buscar invitado
 export const buscarInvitado = async (nombre) => {
