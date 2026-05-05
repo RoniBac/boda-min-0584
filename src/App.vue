@@ -17,7 +17,7 @@ import Page from './components/page.vue'
 </script>
 
 <template>
-  <!--
+
    <Hero 
     :imagen="data.hero.imagen"
     :fecha="data.hero.fecha"
@@ -89,7 +89,6 @@ import Page from './components/page.vue'
     </div>
   </div>
 
-  -->
-  <Page />
+
   
 </template>

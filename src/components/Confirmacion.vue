@@ -24,7 +24,7 @@
         </p>
       <input 
         v-model="nombreInput" 
-        placeholder="Escribe tu nombre completo"
+        placeholder="Escribe tu nombre (un Nombre y un apellido)"
         class="input"
       />
       <button @click="buscarNombre" class="btn">
@@ -132,7 +132,7 @@ const buscarNombre = async () => {
     const data = await buscarInvitado(nombre)
 
     if (!data || !data.encontrado) {
-      errorMsg.value = "Nombre no encontrado, intenta con tu nombre completo"
+      errorMsg.value = "Intenta con tus dos apellidos o un nombre diferente.”"
       return
     }
 
