@@ -43,7 +43,7 @@ export const invitacion = {
     imagen: hero,
     icono: icono,
     fecha: "24·06·26",
-    novio: "Emanuel",
+    novio: "Emmanuel",
     novia: "Fernanda"
   },
    music: {
