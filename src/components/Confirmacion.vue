@@ -142,7 +142,7 @@ const confirmarAsistencia = async () => {
   try {
     await confirmarInvitado({
       fila: fila.value,
-      personas: asistencia.value === "si" ? personas.value : 0,
+      personas: asistencia.value === "si",
       asistencia: asistencia.value
     })
 
