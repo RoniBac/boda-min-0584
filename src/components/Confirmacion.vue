@@ -37,7 +37,7 @@
     <!-- ========================= -->
     <div v-if="estado === 'confirmar'" class="rsvp-box">
 
-  <p class="nombre-confirmado">¿Eres {{ nombreValido }}?</p>
+  <p class="nombre-confirmado">¿ErAJNSDASJNes {{ nombreValido }}?</p>
 
   <!-- PASO 1 -->
   <div v-if="pasoConfirmacion === 'decision'">
@@ -157,13 +157,4 @@ const confirmarAsistencia = async () => {
   }
 }
 
-const seleccionarAsistencia = (tipo) => {
-  asistencia.value = tipo
-
-  if (tipo === "si") {
-    pasoConfirmacion.value = "personas"
-  } else {
-    pasoConfirmacion.value = "no-asiste"
-  }
-}
 </script>
