@@ -50,18 +50,6 @@
     </button>
   </div>
 
-  <!-- PASO 2 -->
-  <div v-if="pasoConfirmacion === 'personas'">
-    <p class="label-personas">
-      ¿Cuántas personas lo acompañan?(solo agrega acompañantes)
-    </p>
-    <input 
-      v-model="personas" 
-      type="number" 
-      placeholder="Número de personas"
-      class="input"
-    />
-
     <button @click="confirmarAsistencia" class="btn">
       Confirmar asistencia
     </button>
