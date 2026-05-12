@@ -53,7 +53,7 @@
   <!-- PASO 2 -->
   <div v-if="pasoConfirmacion === 'personas'">
     <p class="label-personas">
-      ¿Cuántas personas asistirán?
+      ¿Cuántas personas lo acompañan?("No te cuentes a ti mismo(a), solo agrega acompañantes.")
     </p>
     <input 
       v-model="personas" 
