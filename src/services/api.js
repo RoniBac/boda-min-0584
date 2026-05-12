@@ -4,17 +4,26 @@ const API_URL = import.meta.env.DEV
 
 // 🔍 Buscar invitado
 export const buscarInvitado = async (nombre) => {
-  const res = await fetch(`${API_URL}?nombre=${encodeURIComponent(nombre)}`)
+
+  const res = await fetch(
+    `${API_URL}?nombre=${encodeURIComponent(nombre)}`
+  )
+
   return res.json()
 }
 
-export const confirmarInvitado = async ({ fila, personas, asistencia }) => {
+
+// ✅ Confirmar invitado
+export const confirmarInvitado = async ({ fila, asistencia }) => {
+
   const params = new URLSearchParams({
     fila,
-    personas,
     asistencia
   })
 
-  const res = await fetch(`${API_URL}?${params.toString()}`)
+  const res = await fetch(
+    `${API_URL}?${params.toString()}`
+  )
+
   return res.json()
 }
