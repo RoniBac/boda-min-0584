@@ -42,7 +42,7 @@ export const invitacion = {
   hero: {
     imagen: hero,
     icono: icono,
-    fecha: "24·06·26",
+    fecha: "24·07·26",
     novio: "Emmanuel",
     novia: "Fernanda"
   },
@@ -73,8 +73,8 @@ export const invitacion = {
   },
   countdown: {
     titulo: "APARTA esta FECHA",
-    fechaTexto: "24·06·26",
-    fechaISO: "2026-06-24T18:30:00", // 🔥 IMPORTANTE (para JS)
+    fechaTexto: "24·07·26",
+    fechaISO: "2026-07-24T18:30:00", // 🔥 IMPORTANTE (para JS)
   },
     princpal1:{
         imagen: hero2
