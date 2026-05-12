@@ -11,7 +11,7 @@ export default defineConfig({
         rewrite: (path) =>
           path.replace(
             /^\/api/,
-            '/macros/s/AKfycbwbOMk6h1qSsf1a3gK2uL0QxFtLm_azV8rGFlZywzGFi2LFPlF-5ubV8oe6YFM9Yr6-MQ/exec'
+            '/macros/s/AKfycbwZPNe5qXi7ildkjALv4dObRuaQIgFXBsNDOMILHs9-XpYcW-fsIGionnanHZQ2nTWP9A/exec'
           )
       }
     }
